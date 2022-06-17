@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventos </title>
+    <script>
+        function acao(){
+            alert('Evento disparado')
+        }
+
+    </script>
+</head>
+<body>
+    <div onclick="alert('teste')" style="background: #ccc; height: 150px; width: 150px; margin: 20px;"></div>
+
+
+    <div ondblclick="acao()" style="background: rgb(130, 164, 196); height: 150px; width: 150px;margin: 20px; "></div>
+
+    <div onmouseup="acao()" style="background: rgb(167, 9, 9); height: 150px; width: 150px;margin: 20px; "></div>
+
+    <div onmouseout="acao()" style="background: rgb(218, 183, 32); height: 150px; width: 150px;margin: 20px; "></div>
+    
+    <div onmouseover="acao()" style="background: rgb(40, 155, 40); height: 150px; width: 150px;margin: 20px; "></div>
+
+</body>
+</html>
